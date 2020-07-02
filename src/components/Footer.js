@@ -2,9 +2,9 @@ import React from "react";
 
 function Footer () {
     return (
-        <div>
-            
-        </div>
+        <div className="card-footer text-center">
+        &copy; Helen Darden
+      </div>
     )
 }
 

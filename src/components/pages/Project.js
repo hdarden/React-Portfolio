@@ -1,8 +1,15 @@
 import React from "react";
+import NavTabs from "../NavTabs"
+import "../css/styles.css"
 
 function Project() {
   return (
-    <div>
+      <div className="container-fluid">
+        <div className="row">
+        <div className="col-md-2 sideNav">
+          <NavTabs />
+        </div>
+        <div className="col-md-10 project">
       <h1>Project Page</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
@@ -16,6 +23,8 @@ function Project() {
         vehicula sit amet at augue. Maecenas aliquam bibendum congue. Pellentesque semper, lectus
         non ullamcorper iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
       </p>
+    </div>
+    </div>
     </div>
   );
 }

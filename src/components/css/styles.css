@@ -1,0 +1,19 @@
+.sideNav {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact, .home, .about-content, .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    text-align: center;
+    padding: 45vh 45vh;
+    background-color: navy;
+    color: white;
+}

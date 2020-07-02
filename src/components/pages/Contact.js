@@ -1,10 +1,17 @@
 import React from "react";
+import NavTabs from "../NavTabs"
+import "../css/styles.css" 
 //import { Link, Route } from "react-router-dom";
 //import Learn from "./Learn";
 
 function Contact(props) {
   return (
-    <div>
+    <div className="container-fluid">
+      <div className="row">
+        <div className="col-md-2 sideNav">
+          <NavTabs />
+        </div>
+        <div className="col-md-10 contact">
       <h1>Contact Page</h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
@@ -24,6 +31,8 @@ function Contact(props) {
         Learn Less
       </Link>
       <Route exact path={`${props.match.url}/learn`} component={Learn} /> */}
+    </div>
+    </div>
     </div>
   );
 }
