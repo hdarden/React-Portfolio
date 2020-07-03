@@ -13,13 +13,19 @@ function Project() {
           
           <h1>Projects</h1>
           <p>
-            INTown is a multi-page app that allows users from Charlotte explore
+            <strong>INTown</strong> is a multi-page app that allows users from Charlotte explore
             different events, outdoor areas, popular places, and restaurants in
-            their selected neighborhood. School Spot uses both front-end and
+            their selected neighborhood. </p>
+            <p><strong>School Spot</strong> utilizes both front-end and
             back-end technology to cultivate a user experience that stores
             information within a MySQL database. The app allows teachers to post
             assignments and grades and students to keep track of assignment due
             dates and course grades.
+          </p>
+          <p>
+            <strong>Schedule Me</strong> is a React.js web app that allows the user to login in and schedule appointments.
+            It is a SQL database 
+            It is designed to utilize a universal platform which allows businesses to personalize the app to their specific
           </p>
           </div>
          {/*  <div className="row">

@@ -37,10 +37,7 @@ function Skills () {
                     </ul>
                  </div>   
             </div>
-        </div>
-        
-         
-       
+        </div>       
     )
 }
 export default Skills;
