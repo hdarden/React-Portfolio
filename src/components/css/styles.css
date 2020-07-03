@@ -5,9 +5,11 @@
     justify-content: center;
     align-items: center;
     font-family: 'Crimson Text', serif;
+    background-color: rgb(86, 96, 202);
+    
 
 }
-.contact, .home, .about-content, .project {
+.contact, .home, .about-content, .project, .skills {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,3 +29,4 @@ footer {
     font-family: 'Crimson Text', serif;
 
 }
+
