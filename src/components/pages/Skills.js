@@ -10,7 +10,7 @@ function Skills () {
                     <NavTabs />
                 </div>
                 <div className="col-md-10 skills">
-                    <h1>Skills Page</h1>
+                    <h1>Skills</h1>
                     <p>
                         Experience in HTML5, CSS3, Bootstrap, Javascript,
                         JQuery, AJAX, Git, React.js, Node.js, Handlebars.js, Express.js,

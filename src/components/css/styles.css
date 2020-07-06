@@ -4,10 +4,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Bree Serif', serif;
     background-color: rgb(86, 96, 202);
     
+}
+.nav-link, .navbar-brand {
+    color: white;
+}
 
+.headshot {
+    height: 200px;
+    width: 200px;
 }
 .contact, .home, .about-content, .project, .skills {
     display: flex;
@@ -30,7 +37,10 @@ header {
 }
 
 footer {
-    font-family: 'Crimson Text', serif;
+    font-family: 'Bree Serif', serif;
 
 }
 
+.social-icons, .dev-icons {
+    padding: 10px;
+}

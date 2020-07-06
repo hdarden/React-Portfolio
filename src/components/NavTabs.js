@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import "./css/styles.css";
 
 function NavTabs() {
   const location = useLocation();
@@ -7,17 +8,17 @@ function NavTabs() {
   return (
   
   <div className="sidNav">
-      <a className="navbar-brand  text-white" href="/">Helen Darden</a>
+      <a className="navbar-brand" href="/">Helen Darden</a>
         <ul className="navbar-nav">
           <li className="nav-item">
-              <Link to="/" className={location.pathname === "/" ? "nav-link  text-white" : "nav-link"}>
+              <Link to="/" className={location.pathname === "/" ? "nav-link" : "nav-link"}>
               About
             </Link>
           </li>
           <li className="nav-item">
               <Link
               to="/education"
-              className={location.pathname === "/education" ? "nav-link  text-white" : "nav-link"}
+              className={location.pathname === "/education" ? "nav-link" : "nav-link "}
             >
               Education
             </Link>
@@ -25,7 +26,7 @@ function NavTabs() {
           <li className="nav-item">
               <Link
               to="/project"
-              className={location.pathname === "/project" ? "nav-link  text-white" : "nav-link"}
+              className={location.pathname === "/project" ? "nav-link" : "nav-link"}
             >
               Projects
             </Link>
@@ -33,7 +34,7 @@ function NavTabs() {
           <li className="nav-item">
               <Link
               to="/skills"
-              className={location.pathname === "/skills" ? "nav-link  text-white" : "nav-link"}
+              className={location.pathname === "/skills" ? "nav-link" : "nav-link"}
             >
               Skills
             </Link>
@@ -41,7 +42,7 @@ function NavTabs() {
           <li className="nav-item">
               <Link
               to="/contact"
-              className={location.pathname === "/contact" ? "nav-link  text-white" : "nav-link"}
+              className={location.pathname === "/contact" ? "nav-link" : "nav-link"}
             >
               Contact
             </Link>

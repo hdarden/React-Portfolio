@@ -13,19 +13,33 @@ function Project() {
           
           <h1>Projects</h1>
           <p>
-            <strong>INTown</strong> is a multi-page app that allows users from Charlotte explore
+            <strong><span onClick={("https://hdarden.github.io/INTown/")}>INTown</span></strong> is a front end web app that allows users from Charlotte, NC to explore
             different events, outdoor areas, popular places, and restaurants in
-            their selected neighborhood. </p>
+            their selected neighborhood. Google Maps and Ticketmaster APIs are implemented in into the app in order to request criteria for specific neighborhoods and deliver
+            the informationto the user.
+            </p>
             <p><strong>School Spot</strong> utilizes both front-end and
             back-end technology to cultivate a user experience that stores
             information within a MySQL database. The app allows teachers to post
-            assignments and grades and students to keep track of assignment due
-            dates and course grades.
+            assignments and grades and students to keep track of assignments, due
+            dates, and grades.
           </p>
           <p>
-            <strong>Schedule Me</strong> is a React.js web app that allows the user to login in and schedule appointments.
-            It is a SQL database 
-            It is designed to utilize a universal platform which allows businesses to personalize the app to their specific
+            <strong>Schedule-Me</strong> is a React.js web app that allows the user to login in and schedule appointments.
+            Schedule-Me allows clients to view, request, and confirm appointments by viewing availability of a given business or contractor.
+            
+          </p>
+          <p>
+            <strong>The Burger Logger</strong> represents my first full stack web app. It implements MySQL, Express, Handlebars, and a homemade ORM
+          to allow the user to create a burger, add it the the burger logger, and choose a burger to devour.
+          </p>
+          <p>
+            <strong>Team Profile Generator</strong> is a Node CLI that uses npm inquirer to take in information about 
+            employees and uses npm fs to generate an HTML webpage that displays summaries for each person. This Node CLI 
+            includes unit tests in order to build better program design of the Team Profile Generator.
+          </p>
+          <p>
+            <strong>another app</strong>
           </p>
           </div>
          {/*  <div className="row">
@@ -47,7 +61,9 @@ function Project() {
             </a>
             <a href="https://github.com/hdarden/Burger-Logger" target="blank"><h4>Burger Logger Repo</h4></a>
           </div>
-          </div> */}
+          </div> 
+          https://drive.google.com/file/d/1lV3s5tGY8JhTBoKPVKqUBlXtbRL_qv6c/view?usp=sharing›
+          */}
         
       </div>
     </div>
