@@ -11,6 +11,9 @@
 .nav-link, .navbar-brand {
     color: white;
 }
+a:hover {
+    color: black
+}
 
 .headshot {
     height: 200px;
@@ -43,4 +46,10 @@ footer {
 
 .social-icons, .dev-icons {
     padding: 10px;
+    font-size: 2rem;
+    color: black;
+}
+
+p {
+    font-size: 16pt;
 }

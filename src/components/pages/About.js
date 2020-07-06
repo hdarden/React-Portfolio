@@ -2,6 +2,7 @@ import React from "react";
 import NavTabs from "../NavTabs"
 import "../css/styles.css"
 import FullSizeRender from "../img/FullSizeRender.jpeg"
+import Portfolio from "../img/Portfolio Resume.pdf"
 
 
 function About() {
@@ -30,11 +31,11 @@ function About() {
             </p>
   <br></br>          
             <div>
-              <a href="https://drive.google.com/file/d/1udhFima0saBn9phmIwLThyWMPprtG3gl/view?ths=true" target="blank"><img src={FullSizeRender} className="headshot"  alt="headshot" />
+              <a href={Portfolio} target="blank"><img src={FullSizeRender} className="headshot"  alt="headshot" />
             </a></div>
   <br></br> 
             <ul className="list-inline social-icons">
-                <li className="list-inline-item"><a className="social-icon" href="https://www.linkedin.com/in/helendarden/" target="blank"><i className="fab fa-linkedin-in"></i></a></li>                     
+                <li className="list-inline-item"><a href="https://www.linkedin.com/in/helendarden/" target="blank"><i className="fab fa-linkedin-in"></i></a></li>                     
                 <li className="list-inline-item"><a className="social-icon" href="https://github.com/hdarden" target="blank"><i className="fab fa-github"></i></a>
             </li>
             </ul>

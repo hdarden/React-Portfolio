@@ -22,7 +22,7 @@ function Contact() {
         (704)-999-4889
       </p>
       <p>
-        hgdarden@gmail.com
+        <a href="mailto:hgdarden@gmail.com">hgdarden@gmail.com</a>
       </p>
       <p>
 
