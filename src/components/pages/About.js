@@ -35,7 +35,7 @@ function About() {
             </a></div>
   <br></br> 
             <ul className="list-inline social-icons">
-                <li className="list-inline-item"><a href="https://www.linkedin.com/in/helendarden/" target="blank"><i className="fab fa-linkedin-in"></i></a></li>                     
+                <li className="list-inline-item"><a className="social-icon" href="https://www.linkedin.com/in/helendarden/" target="blank"><i className="fab fa-linkedin-in"></i></a></li>                     
                 <li className="list-inline-item"><a className="social-icon" href="https://github.com/hdarden" target="blank"><i className="fab fa-github"></i></a>
             </li>
             </ul>
