@@ -19,11 +19,11 @@ function Education() {
       <h3>Gardner-Webb University</h3>
       <h5>Bachelor of Science</h5>
       <ul>
-        <li>
+        <li className="list-inline-item">
           <strong>Major:</strong> Exercise Science; 
           <br></br>Preventative and Rehabilitative Health Science
-        </li>
-        <li>
+        </li><br></br>
+        <li className="list-inline-item">
           <strong>GPA:</strong> 3.35
         </li>
       </ul>

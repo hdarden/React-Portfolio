@@ -4,7 +4,7 @@ function Header () {
     return (
       <header>
         <div className="container-fluid">
-          <h1 className="display-4 header">Helen Darden</h1>
+          <h1 className="display-4 justify-content">Helen Darden</h1>
           <p className="lead header">
             Full Stack Web Developer
           </p>
