@@ -134,7 +134,7 @@ function Project() {
             <div className="media-body">
             <p>
             <a
-              href="https://github.com/hdarden/Burger-Logger"
+              href="https://arcane-wave-65165.herokuapp.com/"
               target="blank"
               alt="burger log"
             >

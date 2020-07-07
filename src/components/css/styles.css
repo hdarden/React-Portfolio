@@ -14,7 +14,6 @@
 a:hover {
     color: black
 }
-
 .headshot {
     height: 200px;
     width: 200px;
@@ -27,7 +26,6 @@ a:hover {
     font-family: 'Crimson Text', serif;
     padding-left: 1in;
     padding-right: 1in;
-
 }
 header {
     text-align: center;
@@ -38,27 +36,15 @@ header {
     justify-content: center;
 
 }
-
 footer {
     font-family: 'Bree Serif', serif;
 
 }
-
 .social-icons, .dev-icons {
     padding: 10px;
     font-size: 2rem;
     color: black;
 }
-
 p {
     font-size: 16pt;
-}
-
-@media only screen and (max-width: 375px) {
-    .sideNav {
-        width: 100vw;
-}
-    h1 {
-        text-align: left;
-    }
 }
