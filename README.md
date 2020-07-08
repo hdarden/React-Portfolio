@@ -3,7 +3,7 @@
 Updated portfolio created using React.js. It contains a header, footer, and portfolio content. It features 6 projects, linking to both github repo and deployed link as well as links to my resume, linkedin, and github pages.
 
 ## Links
-[Repo]("https://github.com/hdarden/React-Portfolio") & 
+[Repo]("https://github.com/hdarden/React-Portfolio") 
 [Deployed Link]("https://hdarden.github.io/React-Portfolio/")
 
 
