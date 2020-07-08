@@ -8,10 +8,10 @@ function NavTabs() {
   return (
   
   <div className="sidNav">
-      <a className="navbar-brand" href="/">Helen Darden</a>
+      <a className="navbar-brand" href="/React-Portfolio">Helen Darden</a>
         <ul className="navbar-nav">
           <li className="nav-item">
-              <Link to="/" className={location.pathname === "/" ? "nav-link" : "nav-link"}>
+              <Link to="/React-Portfolio" className={location.pathname === "/" ? "nav-link" : "nav-link"}>
               About
             </Link>
           </li>
