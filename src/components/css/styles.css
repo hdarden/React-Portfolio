@@ -45,6 +45,10 @@ footer {
     font-size: 2rem;
     color: black;
 }
-p {
-    font-size: 16pt;
+p, li {
+    font-size: 20pt;
+}
+
+.navbar-brand {
+    font-size: 25pt;
 }
