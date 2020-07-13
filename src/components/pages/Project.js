@@ -89,7 +89,7 @@ function Project() {
           <br></br>
           <div className="media">
             <a
-              href="https://github.com/ashleydeyoung/schedule-me"
+              href="https://github.com/hdarden/schedule-me"
               target="blank"
               alt="schedule me app"
             >
@@ -104,15 +104,17 @@ function Project() {
             <div className="media-body">
               <p>
                 <a
-                  href="https://github.com/ashleydeyoung/schedule-me"
+                  href="https://scheduleme-mobile.herokuapp.com/login"
                   target="blank"
                 >
                   <strong style={styles.link}>Schedule-Me</strong>
                 </a>{" "}
-                is a React.js web app that allows the user to login in and
-                schedule appointments. Schedule-Me allows clients to view,
+                is a React.js application that allows clients to view,
                 request, and confirm appointments by viewing availability of a
-                given business or contractor.
+                given business or contractor. With hope of omitting or limiting
+                the number of patrons and exposure time in what is normally
+                considered "waiting areas", Schedule-Me is designed to 
+                reduce the chance of infection rates.
               </p>
             </div>
           </div>
