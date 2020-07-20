@@ -2,7 +2,7 @@ import React from "react";
 import NavTabs from "../NavTabs";
 import "../css/styles.css";
 import FullSizeRender from "../img/FullSizeRender.jpeg";
-import Portfolio from "../img/Portfolio Resume.pdf";
+
 
 function About() {
   return (
@@ -31,7 +31,7 @@ function About() {
           </p>
           <br></br>
           <div>
-            <a href={Portfolio} target="blank">
+            <a href="https://docs.google.com/document/d/1mX9wBoz-1rJdzUdvD0JGe3VE9UEtcpJqsiOjiQA6bo0/edit?usp=sharing" target="blank">
               <img src={FullSizeRender} className="headshot" alt="headshot" />
             </a>
           </div>

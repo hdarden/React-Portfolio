@@ -1,6 +1,5 @@
 import React from "react";
 import NavTabs from "../NavTabs";
-import Portfolio from "../img/Portfolio Resume.pdf";
 import "../css/styles.css";
 
 function Contact() {
@@ -19,7 +18,7 @@ function Contact() {
             <a href="mailto:hgdarden@gmail.com">hgdarden@gmail.com</a>
           </p>
           <p>
-            <a href={Portfolio} target="blank">Resume
+            <a href="https://docs.google.com/document/d/1mX9wBoz-1rJdzUdvD0JGe3VE9UEtcpJqsiOjiQA6bo0/edit?usp=sharing" target="blank">Resume
             </a>
           </p>
           <ul className="list-inline social-icons">
