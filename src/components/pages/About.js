@@ -15,7 +15,7 @@ function About() {
           <h1>About</h1>
           <p>
             I am a organized eCommerce Web Developer, with a background in
-            web development, building Shopify eCommerce websites, SEO, and remote work. 
+            web development, building Shopify eCommerce websites, SEO, and remote work.   
           </p>
           <p>
             My goal as a web developer is to apply my exceptional capability in
