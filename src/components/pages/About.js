@@ -14,10 +14,8 @@ function About() {
         <div className="col-md-10 home">
           <h1>About</h1>
           <p>
-            I am a full stack web developer, continually learning and building
-            my skills on both the front end and back end. I have a background in
-            product line management, customer service, leadership, visual
-            merchandising, and sales.
+            I am a organized eCommerce Web Developer, with a background in
+            web development, building Shopify eCommerce websites, SEO, and remote work. 
           </p>
           <p>
             My goal as a web developer is to apply my exceptional capability in
